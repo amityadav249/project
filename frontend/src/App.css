@@ -1,0 +1,50 @@
+.header-content {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #333;
+ color: #fff;
+ padding: 10px 20px;
+ background-image: url(https://www.shutterstock.com/image-photo/typical-souvenirs-handicrafts-bali-famous-260nw-1513777076.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 60vh;
+}
+
+.left-content {
+  flex: 1;
+  margin-left: 300px;
+}
+
+.right-content {
+  margin-left: 20px;
+}
+
+.right-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  width: 70%;
+  height: 70%; 
+  object-fit: cover;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
